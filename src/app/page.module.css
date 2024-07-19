@@ -1,0 +1,67 @@
+.container{
+  margin: 0 auto;
+  width: 100%;
+  max-width: 480px;
+}
+
+.containerTitle{
+  text-align: center;
+  color: var(--secundary-color);
+  font-weight: 900;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.containerHeader{
+  background-color: var(--main-container-bg);
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.containerHeaderTitle{
+  font-weight: 800;
+  color: var(--tertiary-color);
+  font-size: 18px;
+}
+
+.containerContentButtons{
+  margin: 30px auto;
+  background-color: var(--main-color);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.containerContentButtons button{
+  width: 50%;
+  border-radius: 5px;
+  padding: 8px 0;
+  color: var(--tertiary-color);
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.buttonSelected{
+  background-color: var(--tertiary-color) !important;
+  color: var(--primary-color) !important;
+}
+
+.goesFirst{
+  color: var(--tertiary-color) ;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.startButton{
+  color: var(--primary-color);
+  background-color: var(--secundary-container-bg);
+  width: 100%;
+  border-radius: 5px;
+  padding: 15px;
+  font-weight: 800;
+}
+
+.startButton:hover{
+  background-color: var(--secundary-container-bg-hover);
+}
