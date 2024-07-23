@@ -7,6 +7,10 @@ A simple tic-tac-toe game made with Next.js. In addition to creating a custom ho
 
 In this first version it is possible to play a player vs player match and in the future I intend to implement the player vc computer mode.
 
+
+#### See the project **[Demo](https://tic-tac-toe-99wh.vercel.app)**
+
+
 ## Dependencies
 
 Project dependencies:
