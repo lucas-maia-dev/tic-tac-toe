@@ -6,6 +6,7 @@
   --main-container-bg: #1f3540;
   --secundary-container-bg: #f2b237;
   --secundary-container-bg-hover: #d49216;
+  --tertiary-container-bg: #2fbcb6;
   --primary-color: #1f3540;
   --tertiary-color: #a7bdc7;
   --color-player-one: #2fbcb6;
@@ -37,4 +38,8 @@ button{
   background-color: transparent;
   cursor: pointer;
   transition: 0.3s;
+}
+
+a{
+  text-decoration: none;
 }
