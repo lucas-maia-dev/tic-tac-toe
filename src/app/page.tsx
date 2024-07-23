@@ -9,7 +9,7 @@ export default function Home() {
     <section className={styles.container}>
       <h2 className={styles.containerTitle}>Tic Tac Toe</h2>
       <div className={styles.containerHeader}>
-        <h3 className={styles.containerHeaderTitle}>Pick player 1's mark</h3>
+        <h3 className={styles.containerHeaderTitle}>pick player 1 mark</h3>
         <div className={styles.containerContentButtons}>
           <button className={turn === "x" ? styles.buttonSelected : "" } onClick={()=> setTurn("x")}>x</button>
           <button className={turn === "o" ? styles.buttonSelected : "" } onClick={()=> setTurn("o")}>o</button>
